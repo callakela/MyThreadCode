@@ -32,7 +32,7 @@ public class MyDuplicateElements {
 		for (int k = 0; k < output.length; k++) {
 			output[k]=array[k];
 		}
-		duplicate.forEach(System.out::println);
+		//duplicate.forEach(System.out::println);
 		return output;
 	}
 	

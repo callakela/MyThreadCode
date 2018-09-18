@@ -7,9 +7,9 @@ public class Biker implements Runnable {
 	
 	CyclicBarrier barrier;
 	
-	public Biker(CyclicBarrier latch){
+	public Biker(CyclicBarrier barrier){
 		
-		this.barrier=latch;
+		this.barrier=barrier;
 		
 	}
 	

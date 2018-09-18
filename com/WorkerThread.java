@@ -1,5 +1,5 @@
 package com;
-public class WorkerThread implements Runnable {
+public class WorkerThread extends Thread {
   
     private String command;
     

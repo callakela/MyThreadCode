@@ -12,7 +12,7 @@ public class PrintPair {
 	        int sum = 10;
 	        Set<Pair> result= getPairsCount(arr, sum);
 	        
-	        result.forEach(obj->System.out.println("pair is "+obj.getNumberOne()+" : "+obj.getNumberTwo()));
+	        //result.forEach(obj->System.out.println("pair is "+obj.getNumberOne()+" : "+obj.getNumberTwo()));
 	        
 	    }
 	 

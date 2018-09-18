@@ -13,13 +13,13 @@ public class PrintNumber implements Runnable{
 		
 		if(Thread.currentThread().getName().equalsIgnoreCase("ThreadOne")) {
 			
-		   Printer.printNumber(numberOne,limit);
+		  // Printer.printNumber(numberOne,limit);
 		   
 		}
 		
 		if(Thread.currentThread().getName().equalsIgnoreCase("ThreadTwo")) {
 			
-		   Printer.printNumber(numberTwo,limit);
+		  // Printer.printNumber(numberTwo,limit);
 		}
 		
 	}
